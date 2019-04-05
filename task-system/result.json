@@ -1,0 +1,22 @@
+{
+    "platform": "linux",
+    "api_version": 1013,
+    "maxsize": 9223372036854775807,
+    "bits_per_digit": 30,
+    "sizeof_digit": 4,
+    "version_info": {
+        "major": 3,
+        "minor": 6,
+        "micro": 4,
+        "releaselevel": "final",
+        "serial": 0
+    },
+    "sep": "/",
+    "uname": {
+        "sysname": "Linux",
+        "nodename": "vanessa-ThinkPad-T460s",
+        "version": "#48~16.04.1-Ubuntu SMP Tue Jan 29 18:03:48 UTC 2019",
+        "release": "4.15.0-45-generic",
+        "machine": "x86_64"
+    }
+}
