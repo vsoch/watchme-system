@@ -575,7 +575,6 @@
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/Flask_OAuthlib-0.9.5-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/mantrabio-0.0.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/matplotlib-2.1.2-py3.6-linux-x86_64.egg",
-        "/home/vanessa/anaconda3/lib/python3.6/site-packages/schemaorg-0.0.19-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/penrose-0.0.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/pydicom-1.2.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/deid-0.1.32-py3.6.egg",
@@ -591,7 +590,8 @@
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/tracerr-0.0.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/webwatcher-0.0.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/scif-0.0.77-py3.6.egg",
-        "/home/vanessa/anaconda3/lib/python3.6/site-packages/watchme-0.0.11-py3.6.egg"
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/watchme-0.0.11-py3.6.egg",
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/schemaorg-0.0.20-py3.6.egg"
     ],
     "prefix": "/home/vanessa/anaconda3",
     "executable": "/home/vanessa/anaconda3/bin/python",
