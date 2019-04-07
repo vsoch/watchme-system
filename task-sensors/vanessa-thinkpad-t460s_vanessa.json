@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 44.0,
+                "current": 45.0,
                 "high": null,
                 "critical": null
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 28.0,
+                "current": 32.0,
                 "high": null,
                 "critical": null
             }
@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 54.0,
+                "current": 56.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 54.0,
+                "current": 56.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 54.0,
+                "current": 53.0,
                 "high": 100.0,
                 "critical": 100.0
             }
@@ -49,7 +49,7 @@
         "thinkpad": [
             {
                 "label": "",
-                "current": 2260
+                "current": 2274
             }
         ]
     },
