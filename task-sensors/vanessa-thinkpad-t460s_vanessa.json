@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 38.0,
+                "current": 39.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 30.0,
+                "current": 29.0,
                 "high": null,
                 "critical": null
             }
@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 51.0,
+                "current": 53.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 51.0,
+                "current": 53.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 48.0,
+                "current": 50.0,
                 "high": 100.0,
                 "critical": 100.0
             }
@@ -54,7 +54,7 @@
         ]
     },
     "sensors_battery": {
-        "percent": 90.10600706713781,
+        "percent": 82.12014134275618,
         "secsleft": "BatteryTime.POWER_TIME_UNLIMITED",
         "power_plugged": true
     }
