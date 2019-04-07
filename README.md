@@ -139,3 +139,16 @@ $ watchme inspect system --add-command
 
 Note that for the psutils watcher, the export above would include file_name, but
 you don't need to (it's added automatically with your host and username.
+
+## Export Data
+
+As an example, I created this watcher with the commands above, and 
+decided to export data (after about a day and a half) and do an analysis to
+show change in metrics about my computer over time. This simple example will serve
+to show that WatchMe is useful to answer research questions, as it collected my data
+for me without me needing to do anything. Here are the commands to export each of the data
+files:
+
+```bash
+
+```
