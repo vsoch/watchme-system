@@ -150,5 +150,9 @@ for me without me needing to do anything. Here are the commands to export each o
 files:
 
 ```bash
-
+$ mkdir -p data
+$ for task in cpu memory network python sensors system users
+do
+    watchme export system task-$task --out data/task-$task.json vanessa-thinkpad-t460s_vanessa.json
+done
 ```
