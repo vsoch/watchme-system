@@ -153,6 +153,6 @@ files:
 $ mkdir -p data
 $ for task in cpu memory network python sensors system users
 do
-    watchme export system task-$task --out data/task-$task.json vanessa-thinkpad-t460s_vanessa.json
+    watchme export system task-$task --out data/task-$task.json vanessa-thinkpad-t460s_vanessa.json --json
 done
 ```
