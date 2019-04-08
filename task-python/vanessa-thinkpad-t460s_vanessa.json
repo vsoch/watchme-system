@@ -591,7 +591,7 @@
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/webwatcher-0.0.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/scif-0.0.77-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/schemaorg-0.0.21-py3.6.egg",
-        "/home/vanessa/anaconda3/lib/python3.6/site-packages/watchme-0.0.12-py3.6.egg"
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/watchme-0.0.13-py3.6.egg"
     ],
     "prefix": "/home/vanessa/anaconda3",
     "executable": "/home/vanessa/anaconda3/bin/python",
