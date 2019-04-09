@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 37.0,
+                "current": 38.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 37.0,
+                "current": 39.0,
                 "high": null,
                 "critical": null
             }
@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 53.0,
+                "current": 51.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 53.0,
+                "current": 51.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 49.0,
+                "current": 47.0,
                 "high": 100.0,
                 "critical": 100.0
             }
