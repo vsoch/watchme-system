@@ -35,13 +35,19 @@
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
             "speed": 0,
             "mtu": 1500
+        },
+        "enp0s20f0u4c4i2": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
+            "speed": 0,
+            "mtu": 1500
         }
     },
     "net_io_counters": {
-        "bytes_sent": 105479284528,
-        "bytes_recv": 119547783148,
-        "packets_sent": 65848226,
-        "packets_recv": 111577231,
+        "bytes_sent": 105484111550,
+        "bytes_recv": 119566889037,
+        "packets_sent": 65868047,
+        "packets_recv": 111604294,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
