@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 52.0,
+                "current": 51.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 32.0,
+                "current": 30.0,
                 "high": null,
                 "critical": null
             }
@@ -27,13 +27,13 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 63.0,
+                "current": 58.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 63.0,
+                "current": 57.0,
                 "high": 100.0,
                 "critical": 100.0
             },
@@ -49,7 +49,7 @@
         "thinkpad": [
             {
                 "label": "",
-                "current": 2262
+                "current": 2269
             }
         ]
     },
