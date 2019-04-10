@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 47.0,
+                "current": 40.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 45.0,
+                "current": 38.5,
                 "high": null,
                 "critical": null
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 32.0,
+                "current": 33.0,
                 "high": null,
                 "critical": null
             }
@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 61.0,
+                "current": 57.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 60.0,
+                "current": 57.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 57.0,
+                "current": 53.0,
                 "high": 100.0,
                 "critical": 100.0
             }
