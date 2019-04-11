@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 42.0,
+                "current": 40.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 41.5,
+                "current": 39.5,
                 "high": null,
                 "critical": null
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 33.0,
+                "current": 30.0,
                 "high": null,
                 "critical": null
             }
@@ -27,13 +27,13 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 53.0,
+                "current": 54.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 53.0,
+                "current": 54.0,
                 "high": 100.0,
                 "critical": 100.0
             },
@@ -54,7 +54,7 @@
         ]
     },
     "sensors_battery": {
-        "percent": 82.12014134275618,
+        "percent": 100.0,
         "secsleft": "BatteryTime.POWER_TIME_UNLIMITED",
         "power_plugged": true
     }
