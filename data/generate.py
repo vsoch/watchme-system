@@ -50,6 +50,7 @@ def plot_content_arrays(content_arrays, title_append="", show=False, prefix=None
         if isinstance(val, dict):
             if prefix != None:
                 prefix = ("%s-%s" % (prefix, key)).lower()
+                prefix = prefix.replace(':', '').replace(' ','')
             plot_content_arrays(val, title_append = title_append + " " + key, prefix=prefix)
         else:
             try:
