@@ -97,7 +97,7 @@ def process_arrays(data):
 
     content_arrays = {}
     for i, date in enumerate(npdates):
-        content_at_step = json.loads(data['content'][i])
+        content_at_step = data['content'][i]
         make_content_arrays(content_arrays, content_at_step, date)
     return content_arrays
 
