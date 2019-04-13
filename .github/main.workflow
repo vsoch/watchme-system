@@ -6,5 +6,6 @@ workflow "Update Github Pages on Push" {
 action "Generate and Deploy" {
   uses = "docker://faizanbashir/python-datascience:3.6"
   runs = "/bin/bash"
+  secrets = ["GITHUB_TOKEN"]
   args = "/github/workspace/data/deploy.sh"
 }
