@@ -31,6 +31,19 @@ for DEPLOY_FILE in ${DEPLOY_FILES}; do
     fi
 done
 
+# Generate a README with images
+echo "# WatchMe System Images" >> ${GITHUB_PAGES}/README.md
+
+for DEPLOY_FILE in ${DEPLOY_FILES}; do
+    if [ ! -f "${DEPLOY_FILE}" ]; then
+        echo "Cannot find ${DEPLOY_FILE}";
+        exit 1;
+    else
+        mv "${DEPLOY_FILE}" "${GHPAGES}/"
+        echo "![${DEPLOY_FILE}](${DEPLOY_FILE})\n" >> ${GITHUB_PAGES}/README.md
+    fi
+done
+
 # Only deploy on change to master (or used specified branch)
 GITHUB_BRANCH="${GITHUB_BRANCH:-refs/heads/master}"
 
