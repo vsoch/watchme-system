@@ -34,7 +34,6 @@ done
 # Generate a README with images
 echo "# WatchMe System Images" >> ${GITHUB_PAGES}/README.md
 
-
 for DEPLOY_FILE in ${DEPLOY_FILES}; do
     if [ ! -f "${DEPLOY_FILE}" ]; then
         echo "Cannot find ${DEPLOY_FILE}";
@@ -65,7 +64,6 @@ git init && \
 
     # Checkout orphan branch, we remove all because can't add main.workflow
     git checkout gh-pages || git checkout --orphan gh-pages
-    git pull origin gh-pages
     git rm -rf .
 
     # Add the deploy files to the PWD, an empty github pages

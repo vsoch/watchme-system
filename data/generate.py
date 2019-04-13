@@ -87,6 +87,7 @@ def date_to_npdate(date):
 
 
 def process_arrays(data):
+    print(data)
     dates = data['dates']
 
     ## Use a different formatting for the dates.
