@@ -1,1 +1,57 @@
-.git/hooks/pre-push
+#!/bin/sh
+
+# A pre-push hook
+#
+# This hook is called with the following parameters:
+#
+# $1 -- Name of the remote to which the push is being done
+# $2 -- URL to which the push is being done
+#
+# If pushing without using a named remote those arguments will be equal.
+#
+# Information about the commits which are being pushed is supplied as lines to
+# the standard input in the form:
+#
+#   <local ref> <local sha1> <remote ref> <remote sha1>
+#
+# This sample shows how to prevent push of commits where the log message starts
+# with "WIP" (work in progress).
+
+remote="$1"
+url="$2"
+
+echo ${PWD}
+ls
+
+# If the container to do the work doesn't exist, pull it
+if [ ! -f "data/python-datascience.sif" ];
+    then
+    singularity pull --name data/python-datascience.sif docker://faizanbashir/python-datascience:3.6
+fi
+
+# Then run the generate.py script
+singularity exec data/python-datascience.sif python3 data/generate.py
+
+# Make the output folder
+mkdir -p docs
+cp -R data/img/*.png docs/
+
+# Get Listing of files
+FILES=$(ls docs/*.png)
+
+# Generate a README with images
+echo "# WatchMe System Images" > docs/README.md
+
+for FILE in ${FILES}; do
+    if [ ! -f "${FILE}" ]; then
+        echo "Cannot find ${FILE}";
+        exit 1;
+    else
+        echo "![${DEPLOY_FILE}](${DEPLOY_FILE})\n" >> docs/README.md
+    fi
+done
+
+git add docs/*
+git commit -a -m 'adding rendering of system images to docs folder'
+
+exit 0

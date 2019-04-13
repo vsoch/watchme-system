@@ -13,7 +13,7 @@ on an hourly bases, and automated with cron, from my system:
  - [task-system](task-system)
  - [task-users](task-users)
 
-You can also see an example of using Local hooks and containers to generate 
+You can also see an example of using local hooks and a container to generate 
 a nice visual.
 
  - [Hooks](#hooks)
