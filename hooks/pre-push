@@ -20,7 +20,6 @@ ls
 cp task-cpu/vanessa-thinkpad-t460s_vanessa.json data/task-cpu.json
 cp task-system/vanessa-thinkpad-t460s_vanessa.json data/task-system.json
 cp task-sensors/vanessa-thinkpad-t460s_vanessa.json data/task-sensors.json
-cp task-network/vanessa-thinkpad-t460s_vanessa.json data/task-network.json
 cp task-memory/vanessa-thinkpad-t460s_vanessa.json data/task-memory.json
 
 # If the container to do the work doesn't exist, pull it
