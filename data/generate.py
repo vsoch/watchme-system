@@ -89,7 +89,6 @@ def date_to_npdate(date):
 
 
 def process_arrays(data):
-    print(data)
     dates = data['dates']
 
     ## Use a different formatting for the dates.
@@ -118,7 +117,7 @@ def main():
     for json_file in json_files:
         filename, ext = os.path.splitext(os.path.basename(json_file))
         print('file: %s' % json_file)
-        with open(json_file) as f:
+        with open(os.path.join(here, json_file)) as f:
             data = json.load(f)
         arrays = process_arrays(data)
         plot_content_arrays(arrays, prefix=os.path.join(image_folder, filename))

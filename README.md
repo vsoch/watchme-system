@@ -13,6 +13,11 @@ on an hourly bases, and automated with cron, from my system:
  - [task-system](task-system)
  - [task-users](task-users)
 
+You can also see an example of using Local hooks and containers to generate 
+a nice visual.
+
+ - [Hooks](#hooks)
+
 
 ### What is WatchMe?
 
@@ -156,3 +161,16 @@ do
     watchme export system task-$task --out data/task-$task.json vanessa-thinkpad-t460s_vanessa.json --json
 done
 ```
+
+## Hooks
+
+If you want to deploy a set of images from your watcher to GitHub pages, that is very
+easy to do! Just copy the [hooks/pre-push](hooks/pre-push) hook into your .git/hooks
+folder, like this:
+
+```bash
+$ cp hooks/pre-push .git/hooks
+```
+
+And you are good to go! The hook will pull a container to do the generation, if it
+doens't exist already.
