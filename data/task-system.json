@@ -1,11 +1,22 @@
 {
-    "commits": [
-        "5c08957ed0497698fbde0ae811d9ba28b211a364"
-    ],
-    "dates": [
-        "2019-04-05 18:28:05 -0400"
-    ],
-    "content": [
-        "{\n    \"platform\": \"linux\",\n    \"api_version\": 1013,\n    \"maxsize\": 9223372036854775807,\n    \"bits_per_digit\": 30,\n    \"sizeof_digit\": 4,\n    \"version_info\": {\n        \"major\": 3,\n        \"minor\": 6,\n        \"micro\": 4,\n        \"releaselevel\": \"final\",\n        \"serial\": 0\n    },\n    \"sep\": \"/\",\n    \"uname\": {\n        \"sysname\": \"Linux\",\n        \"nodename\": \"vanessa-ThinkPad-T460s\",\n        \"version\": \"#48~16.04.1-Ubuntu SMP Tue Jan 29 18:03:48 UTC 2019\",\n        \"release\": \"4.15.0-45-generic\",\n        \"machine\": \"x86_64\"\n    }\n}"
-    ]
+    "platform": "linux",
+    "api_version": 1013,
+    "maxsize": 9223372036854775807,
+    "bits_per_digit": 30,
+    "sizeof_digit": 4,
+    "version_info": {
+        "major": 3,
+        "minor": 6,
+        "micro": 4,
+        "releaselevel": "final",
+        "serial": 0
+    },
+    "sep": "/",
+    "uname": {
+        "sysname": "Linux",
+        "nodename": "vanessa-ThinkPad-T460s",
+        "version": "#48~16.04.1-Ubuntu SMP Tue Jan 29 18:03:48 UTC 2019",
+        "release": "4.15.0-45-generic",
+        "machine": "x86_64"
+    }
 }
