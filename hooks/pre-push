@@ -9,13 +9,6 @@
 #
 # If pushing without using a named remote those arguments will be equal.
 #
-# Information about the commits which are being pushed is supplied as lines to
-# the standard input in the form:
-#
-#   <local ref> <local sha1> <remote ref> <remote sha1>
-#
-# This sample shows how to prevent push of commits where the log message starts
-# with "WIP" (work in progress).
 
 remote="$1"
 url="$2"
@@ -53,5 +46,6 @@ done
 
 git add docs/*
 git commit -a -m 'adding rendering of system images to docs folder'
+git push origin master
 
 exit 0
