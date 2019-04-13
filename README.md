@@ -173,4 +173,5 @@ $ cp hooks/pre-push .git/hooks
 ```
 
 And you are good to go! The hook will pull a container to do the generation, if it
-doens't exist already.
+doens't exist already. The files are generated in the [docs](docs) folder, and you
+should activate GitHub pages for that folder to see (a very simple) set of images.
