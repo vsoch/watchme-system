@@ -16,6 +16,13 @@ url="$2"
 echo ${PWD}
 ls
 
+# Update data files
+cp task-cpu/vanessa-thinkpad-t460s_vanessa.json data/task-cpu.json
+cp task-system/vanessa-thinkpad-t460s_vanessa.json data/task-system.json
+cp task-sensors/vanessa-thinkpad-t460s_vanessa.json data/task-sensors.json
+cp task-network/vanessa-thinkpad-t460s_vanessa.json data/task-network.json
+cp task-memory/vanessa-thinkpad-t460s_vanessa.json data/task-memory.json
+
 # If the container to do the work doesn't exist, pull it
 if [ ! -f "data/python-datascience.sif" ];
     then
@@ -40,12 +47,11 @@ for FILE in ${FILES}; do
         echo "Cannot find ${FILE}";
         exit 1;
     else
-        echo "![${DEPLOY_FILE}](${DEPLOY_FILE})\n" >> docs/README.md
+        echo "![${FILE}](${FILE})\n" >> docs/README.md
     fi
 done
 
 git add docs/*
 git commit -a -m 'adding rendering of system images to docs folder'
-git push origin master
 
 exit 0
