@@ -27,7 +27,6 @@ action "network" {
   args = ["task-network/vanessa-thinkpad-t460s_vanessa.jso data/task-network.json"]
 }
 
-
 action "memory" {
   uses = "actions/action-builder/shell@master"
   runs = "cp"
@@ -42,12 +41,13 @@ action "List" {
 }
 
 action "Generate" {
-  needs = ["memory", "network", "system", "sensors", "cpu"]
+  needs = ["memory", "network", "system", "sensors", "cpu", "List"]
   uses = "docker://faizanbashir/python-datascience:3.6"
   args = "cd data && python3 generate.py"
 }
 
 action "Deploy to GitHub Pages" {
+  needs = ["memory", "network", "system", "sensors", "cpu", "Generate"]
   uses = "maxheld83/ghpages@v0.2.1"
   env = {
     BUILD_DIR = "data/img"
