@@ -35,14 +35,14 @@ action "memory" {
 }
 
 action "List" {
-  needs = ['memory', 'network', 'system', 'sensors', 'cpu']
+  needs = ["memory", "network", "system", "sensors", "cpu"]
   uses = "actions/action-builder/shell@master"
   runs = "ls"
   args = "data/"
 }
 
 action "Generate" {
-  needs = ['memory', 'network', 'system', 'sensors', 'cpu']
+  needs = ["memory", "network", "system", "sensors", "cpu"]
   uses = "docker://faizanbashir/python-datascience:3.6"
   args = "cd data && python3 generate.py"
 }
