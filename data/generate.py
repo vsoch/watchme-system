@@ -64,7 +64,7 @@ def plot_content_arrays(content_arrays, title_append="", show=False, prefix=None
                 if any([isinstance(v, str) for v in values]):
                     continue
 
-                plt.figure(figsize=(15,5))
+                plt.figure(figsize=(20, 6))
                 plt.plot(dates, values)
                 plt.title(title_append)
 
