@@ -46,7 +46,8 @@ for FILE in ${FILES}; do
         echo "Cannot find ${FILE}";
         exit 1;
     else
-        echo "![${FILE}](${FILE})\n" >> docs/README.md
+        FILENAME=$(basename $FILE)
+        echo "![${FILENAME}](${FILENAME})\n" >> docs/README.md
     fi
 done
 
