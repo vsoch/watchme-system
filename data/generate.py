@@ -7,6 +7,8 @@ import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
 
+here = os.path.dirname(os.path.abspath(__file__))
+
 # Helper Functions
 
 def make_content_arrays(content_arrays, contents, date, key=None):
@@ -106,11 +108,12 @@ def main():
     EXCLUDE = set(["task-python.json", "task-users.json", "task-system.json"])
 
     # Create an image folder
-    if not os.path.exists('img'):
-        os.mkdir('img')
+    image_folder = os.path.join(here, 'img')
+    if not os.path.exists(image_folder):
+        os.mkdir(image_folder)
 
     # Find relevant files in $PWD, exclude non temporal ones
-    json_files = set([f for f in os.listdir(".") if f[-len('.json'):] == ".json"]) - EXCLUDE
+    json_files = set([f for f in os.listdir(here) if f[-len('.json'):] == ".json"]) - EXCLUDE
 
     for json_file in json_files:
         filename, ext = os.path.splitext(os.path.basename(json_file))
@@ -118,7 +121,7 @@ def main():
         with open(json_file) as f:
             data = json.load(f)
         arrays = process_arrays(data)
-        plot_content_arrays(arrays, prefix=os.path.join('img', filename))
+        plot_content_arrays(arrays, prefix=os.path.join(image_folder, filename))
 
 
 if __name__ == '__main__':
