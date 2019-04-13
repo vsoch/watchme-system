@@ -1,4 +1,4 @@
-workflow "Update Notebook on Push" {
+workflow "Update Github Pages on Push" {
   on = "push"
   resolves = "Generate and Deploy"
 }

@@ -9,11 +9,11 @@ cd ${GITHUB_WORKSPACE}
 ls
 
 # Copy data files to data
-cp task-cpu/vanessa-thinkpad-t460s_vanessa.jso data/task-cpu.json
+cp task-cpu/vanessa-thinkpad-t460s_vanessa.json data/task-cpu.json
 cp task-system/vanessa-thinkpad-t460s_vanessa.json data/task-system.json
-cp task-sensors/vanessa-thinkpad-t460s_vanessa.jso data/task-sensors.json
-cp task-network/vanessa-thinkpad-t460s_vanessa.jso data/task-network.json
-cp task-memory/vanessa-thinkpad-t460s_vanessa.jso data/task-memory.json
+cp task-sensors/vanessa-thinkpad-t460s_vanessa.json data/task-sensors.json
+cp task-network/vanessa-thinkpad-t460s_vanessa.json data/task-network.json
+cp task-memory/vanessa-thinkpad-t460s_vanessa.json data/task-memory.json
 
 cd data/
 echo "Generating images..."
@@ -33,6 +33,7 @@ done
 
 # Generate a README with images
 echo "# WatchMe System Images" >> ${GITHUB_PAGES}/README.md
+
 
 for DEPLOY_FILE in ${DEPLOY_FILES}; do
     if [ ! -f "${DEPLOY_FILE}" ]; then
@@ -76,6 +77,10 @@ git init && \
         fi
         git add $(basename "${DEPLOY_FILE}");
     done
+
+    # Add the README.md
+    cp "${GHPAGES}/README.md" .
+    git add README.md
 
     # Push to Github pages
     git commit -m 'Automated deployment to Github Pages: Action deploy' --allow-empty && \
