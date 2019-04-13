@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 24.0,
+                "current": 28.0,
                 "high": null,
                 "critical": null
             }
@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 48.0,
+                "current": 45.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 48.0,
+                "current": 45.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 45.0,
+                "current": 44.0,
                 "high": 100.0,
                 "critical": 100.0
             }
