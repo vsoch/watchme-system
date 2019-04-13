@@ -17,7 +17,7 @@ echo ${PWD}
 ls
 
 # Export all data
-$ for task in cpu memory network python sensors system users
+for task in cpu memory network python sensors system users
 do
     watchme export system task-$task --out data/task-$task.json vanessa-thinkpad-t460s_vanessa.json --json
 done
