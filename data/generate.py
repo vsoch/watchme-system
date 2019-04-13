@@ -105,7 +105,7 @@ def process_arrays(data):
 def main():
 
     ## These do not include temporal data to plot
-    EXCLUDE = set(["task-python.json", "task-users.json", "task-system.json", "task-network.json"])
+    EXCLUDE = set(["task-python.json", "task-users.json", "task-system.json"])
 
     # Create an image folder
     image_folder = os.path.join(here, 'img')
