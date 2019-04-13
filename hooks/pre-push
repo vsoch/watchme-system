@@ -43,7 +43,7 @@ FILES=$(ls docs/*.png)
 echo "# WatchMe System Images" > docs/README.md
 
 for FILE in ${FILES}; do
-    if [ ! -f "docs/${FILE}" ]; then
+    if [ ! -f "${FILE}" ]; then
         echo "Cannot find ${FILE}";
         exit 1;
     else
