@@ -1,34 +1,34 @@
 {
     "cpu_freq": {
-        "current": 2786.219,
+        "current": 2867.14775,
         "min": 400.0,
         "max": 3400.0
     },
-    "cpu_percent": 95.7,
+    "cpu_percent": 100.0,
     "cpu_count": 4,
     "cpu_stats": {
-        "ctx_switches": 10821616257,
-        "interrupts": 2909507573,
-        "soft_interrupts": 2461473282,
+        "ctx_switches": 10837587968,
+        "interrupts": 2913544106,
+        "soft_interrupts": 2463590102,
         "syscalls": 0
     },
     "cpu_times": {
-        "user": 1437647.19,
+        "user": 1438721.46,
         "nice": 9525.7,
-        "system": 244161.74,
-        "idle": 2700116.73,
-        "iowait": 4788.51,
+        "system": 244497.84,
+        "idle": 2712930.32,
+        "iowait": 4800.09,
         "irq": 0.0,
-        "softirq": 14089.28,
+        "softirq": 14093.17,
         "steal": 0.0,
         "guest": 0.0,
         "guest_nice": 0.0
     },
     "cpu_times_percent": {
-        "user": 78.7,
+        "user": 76.5,
         "nice": 0.0,
-        "system": 17.0,
-        "idle": 4.3,
+        "system": 23.5,
+        "idle": 0.0,
         "iowait": 0.0,
         "irq": 0.0,
         "softirq": 0.0,
