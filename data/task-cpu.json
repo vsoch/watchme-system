@@ -1,5 +1,17 @@
 {
     "commits": [
+        "6f574eb7a3eb34217e7465c466a180dfe7e4deca",
+        "6d927b2849f5ff4139f805404f9cf7583c02ea74",
+        "77aaa2dd64c0d6a6281b759151861f41a7dd18e8",
+        "b8bf6a966fccc400c7e7f21ee02730f7b9b90ebe",
+        "452bb637ad86078e339d52015fffa9103bf471dc",
+        "81fc67ae9a57d276d77e42a412bed1f5222e0ce3",
+        "b25570163edce1a373d79103af55beb5a2a2e69f",
+        "acc5bebbbb93755b060f1716b84704932bff3890",
+        "d03b29179dc8f0f0be7ae5eb83f091d120ecd9f0",
+        "993f80b8c9c254f2d8ade701647345d730570f8d",
+        "953b9fe416959bb6c85d3fdc4536313b65e32e7d",
+        "52de9663fa265fd61473f51dbeaacf595658db23",
         "8ac09c311bf5bd83140e0e60d41cbd09ddc56df3",
         "a1cf6626bc2cec8c79442da77eccdbf2ef85fed9",
         "b8e8b131be1910949f803c801fab3a0262d72020",
@@ -184,6 +196,18 @@
         "d2bcc4821aa949a77605342db98b6a3c1a5c14d7"
     ],
     "dates": [
+        "2019-04-13 23:00:02 -0400",
+        "2019-04-13 22:00:02 -0400",
+        "2019-04-13 21:00:02 -0400",
+        "2019-04-13 20:00:02 -0400",
+        "2019-04-13 19:00:02 -0400",
+        "2019-04-13 18:00:02 -0400",
+        "2019-04-13 17:00:02 -0400",
+        "2019-04-13 16:00:02 -0400",
+        "2019-04-13 15:00:03 -0400",
+        "2019-04-13 14:00:02 -0400",
+        "2019-04-13 13:00:02 -0400",
+        "2019-04-13 12:00:02 -0400",
         "2019-04-13 11:00:02 -0400",
         "2019-04-13 10:00:02 -0400",
         "2019-04-13 09:00:01 -0400",
@@ -368,6 +392,474 @@
         "2019-04-05 18:28:05 -0400"
     ],
     "content": [
+        {
+            "cpu_freq": {
+                "current": 2922.962,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 95.2,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11147209118,
+                "interrupts": 2991681876,
+                "soft_interrupts": 2518013075,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1465619.34,
+                "nice": 9541.96,
+                "system": 251509.92,
+                "idle": 3006661.36,
+                "iowait": 5174.56,
+                "irq": 0.0,
+                "softirq": 14289.52,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 71.4,
+                "nice": 0.0,
+                "system": 23.8,
+                "idle": 4.8,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2835.44775,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 81.8,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11137192475,
+                "interrupts": 2989852433,
+                "soft_interrupts": 2516398762,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1465036.52,
+                "nice": 9541.96,
+                "system": 251232.48,
+                "idle": 2993259.16,
+                "iowait": 5161.92,
+                "irq": 0.0,
+                "softirq": 14286.16,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 57.8,
+                "nice": 0.0,
+                "system": 22.2,
+                "idle": 17.8,
+                "iowait": 2.2,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2813.21125,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 85.4,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11127073168,
+                "interrupts": 2987983217,
+                "soft_interrupts": 2514758756,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1464426.54,
+                "nice": 9541.95,
+                "system": 250952.48,
+                "idle": 2979886.51,
+                "iowait": 5149.02,
+                "irq": 0.0,
+                "softirq": 14282.88,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 71.4,
+                "nice": 0.0,
+                "system": 12.2,
+                "idle": 16.3,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2853.2112500000003,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 85.2,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11116861336,
+                "interrupts": 2986087387,
+                "soft_interrupts": 2513110298,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1463794.62,
+                "nice": 9541.95,
+                "system": 250669.27,
+                "idle": 2966544.22,
+                "iowait": 5134.39,
+                "irq": 0.0,
+                "softirq": 14279.68,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 64.8,
+                "nice": 0.0,
+                "system": 20.4,
+                "idle": 14.8,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2811.0825,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 95.6,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11106268287,
+                "interrupts": 2984146760,
+                "soft_interrupts": 2511407801,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1463107.62,
+                "nice": 9541.95,
+                "system": 250386.45,
+                "idle": 2953255.02,
+                "iowait": 5118.01,
+                "irq": 0.0,
+                "softirq": 14276.3,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 71.1,
+                "nice": 0.0,
+                "system": 24.4,
+                "idle": 4.4,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2779.29575,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 84.3,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11090926523,
+                "interrupts": 2981096304,
+                "soft_interrupts": 2508919984,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1461500.49,
+                "nice": 9541.1,
+                "system": 250077.82,
+                "idle": 2940903.9,
+                "iowait": 5102.63,
+                "irq": 0.0,
+                "softirq": 14268.02,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 64.7,
+                "nice": 0.0,
+                "system": 19.6,
+                "idle": 15.7,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2813.64225,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 97.9,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11078436327,
+                "interrupts": 2978360008,
+                "soft_interrupts": 2506760063,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1460296.86,
+                "nice": 9540.71,
+                "system": 249832.58,
+                "idle": 2928072.21,
+                "iowait": 5086.82,
+                "irq": 0.0,
+                "softirq": 14261.71,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 70.2,
+                "nice": 0.0,
+                "system": 27.7,
+                "idle": 2.1,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2851.27125,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 100.0,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11064512604,
+                "interrupts": 2975045920,
+                "soft_interrupts": 2504088678,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1458694.54,
+                "nice": 9540.13,
+                "system": 249562.57,
+                "idle": 2915674.53,
+                "iowait": 5068.19,
+                "irq": 0.0,
+                "softirq": 14249.81,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 65.9,
+                "nice": 0.0,
+                "system": 34.1,
+                "idle": 0.0,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2760.81725,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 80.6,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11048382499,
+                "interrupts": 2971632042,
+                "soft_interrupts": 2501223035,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1456764.3,
+                "nice": 9536.98,
+                "system": 249172.8,
+                "idle": 2903778.12,
+                "iowait": 5049.17,
+                "irq": 0.0,
+                "softirq": 14239.34,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 61.2,
+                "nice": 0.0,
+                "system": 19.4,
+                "idle": 19.4,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2785.0389999999998,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 91.8,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11039336823,
+                "interrupts": 2969345641,
+                "soft_interrupts": 2499335201,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1455937.64,
+                "nice": 9536.66,
+                "system": 248914.51,
+                "idle": 2890603.26,
+                "iowait": 5030.15,
+                "irq": 0.0,
+                "softirq": 14234.21,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 65.3,
+                "nice": 0.0,
+                "system": 26.5,
+                "idle": 8.2,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2734.2932499999997,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 100.0,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11031972066,
+                "interrupts": 2967758457,
+                "soft_interrupts": 2497769710,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1455492.01,
+                "nice": 9536.58,
+                "system": 248699.3,
+                "idle": 2876996.18,
+                "iowait": 5015.03,
+                "irq": 0.0,
+                "softirq": 14230.82,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 81.2,
+                "nice": 0.0,
+                "system": 18.7,
+                "idle": 0.0,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2770.2517500000004,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 97.8,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11017593482,
+                "interrupts": 2963953124,
+                "soft_interrupts": 2494375411,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1453538.03,
+                "nice": 9535.75,
+                "system": 248355.33,
+                "idle": 2865068.88,
+                "iowait": 4990.29,
+                "irq": 0.0,
+                "softirq": 14210.71,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 76.1,
+                "nice": 0.0,
+                "system": 21.7,
+                "idle": 2.2,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
         {
             "cpu_freq": {
                 "current": 2772.935,
