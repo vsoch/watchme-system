@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 23.0,
+                "current": 24.0,
                 "high": null,
                 "critical": null
             }
@@ -27,13 +27,13 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 44.0,
+                "current": 46.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 44.0,
+                "current": 46.0,
                 "high": 100.0,
                 "critical": 100.0
             },
@@ -54,8 +54,8 @@
         ]
     },
     "sensors_battery": {
-        "percent": 76.41996557659208,
-        "secsleft": "10533",
+        "percent": 56.71256454388985,
+        "secsleft": "8006",
         "power_plugged": false
     }
 }
