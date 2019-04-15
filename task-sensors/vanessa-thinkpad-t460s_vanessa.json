@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 39.0,
+                "current": 42.0,
                 "high": null,
                 "critical": null
             }
@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 42.0,
+                "current": 56.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 40.0,
+                "current": 56.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 40.0,
+                "current": 56.0,
                 "high": 100.0,
                 "critical": 100.0
             }
@@ -54,7 +54,7 @@
         ]
     },
     "sensors_battery": {
-        "percent": 76.4751552795031,
+        "percent": 79.5031055900621,
         "secsleft": "BatteryTime.POWER_TIME_UNLIMITED",
         "power_plugged": true
     }
