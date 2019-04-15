@@ -1,5 +1,8 @@
 {
     "commits": [
+        "e82b0f314e3da988e750d31cea0cc05c6a12c4a5",
+        "65785eaa8906b90efa2535e487a42ae03ef0b620",
+        "295533d10b46579e4621d849096842a4a16e2004",
         "9826431feaa96d59afeb2584ec92546e33ea89c1",
         "b52e423b566d0ba409f33d83b60f04be6437c4c6",
         "611077f0177f7ee6809758bd33ea30d0b38ab125",
@@ -194,6 +197,9 @@
         "3c68231508697a909b092e0a08cf9a1280c43a33"
     ],
     "dates": [
+        "2019-04-15 11:00:02 -0400",
+        "2019-04-14 17:00:02 -0400",
+        "2019-04-14 16:00:02 -0400",
         "2019-04-13 23:00:01 -0400",
         "2019-04-13 22:00:02 -0400",
         "2019-04-13 21:00:02 -0400",
@@ -388,6 +394,189 @@
         "2019-04-05 18:28:05 -0400"
     ],
     "content": [
+        {
+            "sensors_temperatures": {
+                "acpitz": [
+                    {
+                        "label": "",
+                        "current": 42.0,
+                        "high": 128.0,
+                        "critical": 128.0
+                    }
+                ],
+                "pch_skylake": [
+                    {
+                        "label": "",
+                        "current": 42.0,
+                        "high": null,
+                        "critical": null
+                    }
+                ],
+                "iwlwifi": [
+                    {
+                        "label": "",
+                        "current": 30.0,
+                        "high": null,
+                        "critical": null
+                    }
+                ],
+                "coretemp": [
+                    {
+                        "label": "Package id 0",
+                        "current": 56.0,
+                        "high": 100.0,
+                        "critical": 100.0
+                    },
+                    {
+                        "label": "Core 0",
+                        "current": 56.0,
+                        "high": 100.0,
+                        "critical": 100.0
+                    },
+                    {
+                        "label": "Core 1",
+                        "current": 56.0,
+                        "high": 100.0,
+                        "critical": 100.0
+                    }
+                ]
+            },
+            "sensors_fans": {
+                "thinkpad": [
+                    {
+                        "label": "",
+                        "current": 0
+                    }
+                ]
+            },
+            "sensors_battery": {
+                "percent": 79.5031055900621,
+                "secsleft": "BatteryTime.POWER_TIME_UNLIMITED",
+                "power_plugged": true
+            }
+        },
+        {
+            "sensors_temperatures": {
+                "acpitz": [
+                    {
+                        "label": "",
+                        "current": 42.0,
+                        "high": 128.0,
+                        "critical": 128.0
+                    }
+                ],
+                "pch_skylake": [
+                    {
+                        "label": "",
+                        "current": 39.0,
+                        "high": null,
+                        "critical": null
+                    }
+                ],
+                "iwlwifi": [
+                    {
+                        "label": "",
+                        "current": 30.0,
+                        "high": null,
+                        "critical": null
+                    }
+                ],
+                "coretemp": [
+                    {
+                        "label": "Package id 0",
+                        "current": 42.0,
+                        "high": 100.0,
+                        "critical": 100.0
+                    },
+                    {
+                        "label": "Core 0",
+                        "current": 40.0,
+                        "high": 100.0,
+                        "critical": 100.0
+                    },
+                    {
+                        "label": "Core 1",
+                        "current": 40.0,
+                        "high": 100.0,
+                        "critical": 100.0
+                    }
+                ]
+            },
+            "sensors_fans": {
+                "thinkpad": [
+                    {
+                        "label": "",
+                        "current": 0
+                    }
+                ]
+            },
+            "sensors_battery": {
+                "percent": 76.4751552795031,
+                "secsleft": "BatteryTime.POWER_TIME_UNLIMITED",
+                "power_plugged": true
+            }
+        },
+        {
+            "sensors_temperatures": {
+                "acpitz": [
+                    {
+                        "label": "",
+                        "current": 36.0,
+                        "high": 128.0,
+                        "critical": 128.0
+                    }
+                ],
+                "pch_skylake": [
+                    {
+                        "label": "",
+                        "current": 36.0,
+                        "high": null,
+                        "critical": null
+                    }
+                ],
+                "iwlwifi": [
+                    {
+                        "label": "",
+                        "current": 30.0,
+                        "high": null,
+                        "critical": null
+                    }
+                ],
+                "coretemp": [
+                    {
+                        "label": "Package id 0",
+                        "current": 45.0,
+                        "high": 100.0,
+                        "critical": 100.0
+                    },
+                    {
+                        "label": "Core 0",
+                        "current": 45.0,
+                        "high": 100.0,
+                        "critical": 100.0
+                    },
+                    {
+                        "label": "Core 1",
+                        "current": 41.0,
+                        "high": 100.0,
+                        "critical": 100.0
+                    }
+                ]
+            },
+            "sensors_fans": {
+                "thinkpad": [
+                    {
+                        "label": "",
+                        "current": 0
+                    }
+                ]
+            },
+            "sensors_battery": {
+                "percent": 75.0,
+                "secsleft": "BatteryTime.POWER_TIME_UNLIMITED",
+                "power_plugged": true
+            }
+        },
         {
             "sensors_temperatures": {
                 "acpitz": [

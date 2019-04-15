@@ -1,5 +1,8 @@
 {
     "commits": [
+        "2dcb3bcbe9b8ffc8a06bddef6573a81e24e8123e",
+        "6ee5c571c26d23b91e4ab9657e1e6511e5b8a1b4",
+        "1feff00d387c7df2e094268a2c886fc17c89bf4a",
         "6f574eb7a3eb34217e7465c466a180dfe7e4deca",
         "6d927b2849f5ff4139f805404f9cf7583c02ea74",
         "77aaa2dd64c0d6a6281b759151861f41a7dd18e8",
@@ -196,6 +199,9 @@
         "d2bcc4821aa949a77605342db98b6a3c1a5c14d7"
     ],
     "dates": [
+        "2019-04-15 11:00:02 -0400",
+        "2019-04-14 17:00:02 -0400",
+        "2019-04-14 16:00:02 -0400",
         "2019-04-13 23:00:02 -0400",
         "2019-04-13 22:00:02 -0400",
         "2019-04-13 21:00:02 -0400",
@@ -392,6 +398,123 @@
         "2019-04-05 18:28:05 -0400"
     ],
     "content": [
+        {
+            "cpu_freq": {
+                "current": 2799.9995,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 93.9,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11205049444,
+                "interrupts": 3007314390,
+                "soft_interrupts": 2529296456,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1472161.34,
+                "nice": 9551.82,
+                "system": 252880.02,
+                "idle": 2498245.41,
+                "iowait": 4451.66,
+                "irq": 0.0,
+                "softirq": 14339.28,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 69.4,
+                "nice": 0.0,
+                "system": 24.5,
+                "idle": 6.1,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2853.12,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 93.5,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11179924992,
+                "interrupts": 3000611519,
+                "soft_interrupts": 2524254691,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1468825.14,
+                "nice": 9547.04,
+                "system": 252302.5,
+                "idle": 2503278.63,
+                "iowait": 4503.9,
+                "irq": 0.0,
+                "softirq": 14316.88,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 71.7,
+                "nice": 0.0,
+                "system": 21.7,
+                "idle": 6.5,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 0.0,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
+        {
+            "cpu_freq": {
+                "current": 2632.7554999999998,
+                "min": 400.0,
+                "max": 3400.0
+            },
+            "cpu_percent": 100.0,
+            "cpu_count": 4,
+            "cpu_stats": {
+                "ctx_switches": 11164506201,
+                "interrupts": 2996637327,
+                "soft_interrupts": 2521163537,
+                "syscalls": 0
+            },
+            "cpu_times": {
+                "user": 1466996.47,
+                "nice": 9545.59,
+                "system": 251988.87,
+                "idle": 2491178.99,
+                "iowait": 4475.33,
+                "irq": 0.0,
+                "softirq": 14301.84,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            },
+            "cpu_times_percent": {
+                "user": 60.0,
+                "nice": 0.0,
+                "system": 35.7,
+                "idle": 0.0,
+                "iowait": 0.0,
+                "irq": 0.0,
+                "softirq": 4.3,
+                "steal": 0.0,
+                "guest": 0.0,
+                "guest_nice": 0.0
+            }
+        },
         {
             "cpu_freq": {
                 "current": 2922.962,
