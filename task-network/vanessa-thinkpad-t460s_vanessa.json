@@ -1,5 +1,17 @@
 {
     "net_if_stats": {
+        "veth174ba9c": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
+        "veth6e4fbdf": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
         "tipbr0": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
@@ -10,6 +22,18 @@
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
             "speed": 65535,
+            "mtu": 1500
+        },
+        "vethc0a5d7f": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
+        "vethfe2c22a": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
             "mtu": 1500
         },
         "docker0": {
@@ -38,10 +62,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 106437344763,
-        "bytes_recv": 133520983943,
-        "packets_sent": 69405383,
-        "packets_recv": 123734503,
+        "bytes_sent": 106610130586,
+        "bytes_recv": 133833177327,
+        "packets_sent": 69495906,
+        "packets_recv": 124000345,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
