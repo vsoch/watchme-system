@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 57.0,
+                "current": 49.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 45.0,
+                "current": 44.5,
                 "high": null,
                 "critical": null
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 35.0,
+                "current": 32.0,
                 "high": null,
                 "critical": null
             }
@@ -49,7 +49,7 @@
         "thinkpad": [
             {
                 "label": "",
-                "current": 3466
+                "current": 0
             }
         ]
     },
