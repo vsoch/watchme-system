@@ -18,6 +18,12 @@
             "speed": 65535,
             "mtu": 1500
         },
+        "veth29ef388": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
         "veth214e6d6": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
@@ -68,10 +74,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 106912949282,
-        "bytes_recv": 136704581869,
-        "packets_sent": 70601480,
-        "packets_recv": 126765481,
+        "bytes_sent": 107044435258,
+        "bytes_recv": 137046297963,
+        "packets_sent": 70739818,
+        "packets_recv": 127064862,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
