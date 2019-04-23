@@ -1,18 +1,12 @@
 {
     "net_if_stats": {
-        "vethb4d8739": {
+        "veth0b391d7": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
             "speed": 10000,
             "mtu": 1500
         },
         "veth3c25afd": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
-        "veth1b0d967": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
             "speed": 10000,
@@ -36,18 +30,6 @@
             "speed": 10000,
             "mtu": 1500
         },
-        "vethc3daf24": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
-        "veth214e6d6": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
         "veth42411a3": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
@@ -66,29 +48,11 @@
             "speed": 0,
             "mtu": 1500
         },
-        "vethcb398df": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
-        "veth366a08b": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
         "lo": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
             "speed": 0,
             "mtu": 65536
-        },
-        "veth711413f": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
         },
         "tbr0": {
             "isup": true,
@@ -98,10 +62,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 111498394027,
-        "bytes_recv": 141378303926,
-        "packets_sent": 73648039,
-        "packets_recv": 131590174,
+        "bytes_sent": 112730340894,
+        "bytes_recv": 143937138241,
+        "packets_sent": 73406786,
+        "packets_recv": 132771981,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
