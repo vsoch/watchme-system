@@ -18,7 +18,7 @@
             "speed": 65535,
             "mtu": 1500
         },
-        "vethe6cf51e": {
+        "vethc3daf24": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
             "speed": 10000,
@@ -80,10 +80,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 108158676066,
-        "bytes_recv": 138807149690,
-        "packets_sent": 71689264,
-        "packets_recv": 128873630,
+        "bytes_sent": 108064032770,
+        "bytes_recv": 138967609804,
+        "packets_sent": 71694296,
+        "packets_recv": 128990563,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
