@@ -6,6 +6,12 @@
             "speed": 10000,
             "mtu": 1500
         },
+        "veth1b0d967": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
         "tipbr0": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
@@ -16,6 +22,12 @@
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
             "speed": 65535,
+            "mtu": 1500
+        },
+        "vethfa81592": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
             "mtu": 1500
         },
         "vethc3daf24": {
@@ -80,10 +92,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 109832196584,
-        "bytes_recv": 140599332450,
-        "packets_sent": 72826453,
-        "packets_recv": 130775406,
+        "bytes_sent": 110668391238,
+        "bytes_recv": 141198305969,
+        "packets_sent": 73080991,
+        "packets_recv": 131299971,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
