@@ -1,5 +1,11 @@
 {
     "net_if_stats": {
+        "veth0384d10": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
         "tipbr0": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
@@ -38,10 +44,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 113454207456,
-        "bytes_recv": 146591198546,
-        "packets_sent": 74829061,
-        "packets_recv": 134930304,
+        "bytes_sent": 113480162921,
+        "bytes_recv": 147186357393,
+        "packets_sent": 74948200,
+        "packets_recv": 135360381,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
