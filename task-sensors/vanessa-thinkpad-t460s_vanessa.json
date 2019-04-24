@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 54.0,
+                "current": 55.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 48.5,
+                "current": 49.0,
                 "high": null,
                 "critical": null
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 36.0,
+                "current": 37.0,
                 "high": null,
                 "critical": null
             }
@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 64.0,
+                "current": 62.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 64.0,
+                "current": 62.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 56.0,
+                "current": 62.0,
                 "high": 100.0,
                 "critical": 100.0
             }
@@ -49,7 +49,7 @@
         "thinkpad": [
             {
                 "label": "",
-                "current": 3254
+                "current": 2265
             }
         ]
     },
