@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 31.0,
+                "current": 32.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 31.5,
+                "current": 32.0,
                 "high": null,
                 "critical": null
             }
