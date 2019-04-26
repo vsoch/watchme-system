@@ -12,6 +12,12 @@
             "speed": 65535,
             "mtu": 1500
         },
+        "vethbda70b4": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
         "docker0": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
@@ -38,10 +44,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 127037795563,
-        "bytes_recv": 171985595204,
-        "packets_sent": 88254161,
-        "packets_recv": 154583179,
+        "bytes_sent": 127169102325,
+        "bytes_recv": 172407571915,
+        "packets_sent": 88348428,
+        "packets_recv": 154898166,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
