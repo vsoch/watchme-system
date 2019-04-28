@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 39.0,
+                "current": 38.0,
                 "high": null,
                 "critical": null
             }
@@ -27,13 +27,13 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 54.0,
+                "current": 52.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 54.0,
+                "current": 52.0,
                 "high": 100.0,
                 "critical": 100.0
             },
