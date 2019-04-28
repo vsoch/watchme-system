@@ -1,18 +1,6 @@
 {
     "net_if_stats": {
-        "veth9fb26ea": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
-        "veth8d0cb59": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
-        "vethb8a94cf": {
+        "vethe6b96b0": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
             "speed": 10000,
@@ -62,10 +50,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 128839727021,
-        "bytes_recv": 176100620262,
-        "packets_sent": 89313488,
-        "packets_recv": 157807922,
+        "bytes_sent": 129271649351,
+        "bytes_recv": 176684079408,
+        "packets_sent": 89475723,
+        "packets_recv": 158278497,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
