@@ -18,13 +18,7 @@
             "speed": 0,
             "mtu": 1500
         },
-        "vethc7255f6": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
-        "veth0955a3a": {
+        "veth4252048": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
             "speed": 10000,
@@ -36,10 +30,22 @@
             "speed": 0,
             "mtu": 1500
         },
+        "veth885eae9": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
         "wlp4s0": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
             "speed": 0,
+            "mtu": 1500
+        },
+        "vethed61d8f": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
             "mtu": 1500
         },
         "lo": {
@@ -53,13 +59,19 @@
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
             "speed": 0,
             "mtu": 1500
+        },
+        "veth5031645": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
         }
     },
     "net_io_counters": {
-        "bytes_sent": 129649898980,
-        "bytes_recv": 177296924015,
-        "packets_sent": 89717412,
-        "packets_recv": 158802220,
+        "bytes_sent": 129781009611,
+        "bytes_recv": 177514824949,
+        "packets_sent": 89705718,
+        "packets_recv": 158916634,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
