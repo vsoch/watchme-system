@@ -1,14 +1,14 @@
 {
     "virtual_memory": {
         "total": 20909223936,
-        "available": 7985295360,
-        "percent": 61.8,
-        "used": 11745378304,
-        "free": 1702838272,
-        "active": 13695246336,
-        "inactive": 4202455040,
-        "buffers": 3488931840,
-        "cached": 3972075520,
-        "shared": 1065009152
+        "available": 9237094400,
+        "percent": 55.8,
+        "used": 10512076800,
+        "free": 2855641088,
+        "active": 12567351296,
+        "inactive": 4211060736,
+        "buffers": 3491463168,
+        "cached": 4050042880,
+        "shared": 1036759040
     }
 }
