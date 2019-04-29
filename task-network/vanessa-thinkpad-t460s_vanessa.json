@@ -68,10 +68,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 129800342290,
-        "bytes_recv": 177552746050,
-        "packets_sent": 89807428,
-        "packets_recv": 159013530,
+        "bytes_sent": 129801841620,
+        "bytes_recv": 177555240182,
+        "packets_sent": 89816244,
+        "packets_recv": 159020909,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
