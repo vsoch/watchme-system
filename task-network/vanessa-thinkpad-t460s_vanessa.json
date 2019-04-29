@@ -1,12 +1,6 @@
 {
     "net_if_stats": {
-        "vetha15c92e": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
-        "veth9d91f60": {
+        "vethf664b5a": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
             "speed": 10000,
@@ -74,10 +68,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 129837497493,
-        "bytes_recv": 177789562037,
-        "packets_sent": 89964751,
-        "packets_recv": 159281549,
+        "bytes_sent": 129833174162,
+        "bytes_recv": 177915767025,
+        "packets_sent": 89944258,
+        "packets_recv": 159338135,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
