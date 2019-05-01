@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 45.0,
+                "current": 46.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 42.0,
+                "current": 45.0,
                 "high": null,
                 "critical": null
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 36.0,
+                "current": 37.0,
                 "high": null,
                 "critical": null
             }
@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 57.0,
+                "current": 59.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 57.0,
+                "current": 59.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 54.0,
+                "current": 53.0,
                 "high": 100.0,
                 "critical": 100.0
             }
@@ -49,13 +49,13 @@
         "thinkpad": [
             {
                 "label": "",
-                "current": 0
+                "current": 2262
             }
         ]
     },
     "sensors_battery": {
         "percent": 100.0,
-        "secsleft": "BatteryTime.POWER_TIME_UNLIMITED",
-        "power_plugged": true
+        "secsleft": "BatteryTime.POWER_TIME_UNKNOWN",
+        "power_plugged": false
     }
 }
