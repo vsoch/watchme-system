@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 35.0,
+                "current": 34.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -39,7 +39,7 @@
             },
             {
                 "label": "Core 1",
-                "current": 48.0,
+                "current": 47.0,
                 "high": 100.0,
                 "critical": 100.0
             }
