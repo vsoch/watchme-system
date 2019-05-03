@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 32.5,
+                "current": 33.0,
                 "high": null,
                 "critical": null
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 35.0,
+                "current": 36.0,
                 "high": null,
                 "critical": null
             }
