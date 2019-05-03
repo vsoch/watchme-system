@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 46.0,
+                "current": 47.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -19,7 +19,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 30.0,
+                "current": 37.0,
                 "high": null,
                 "critical": null
             }
@@ -27,13 +27,13 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 56.0,
+                "current": 60.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 56.0,
+                "current": 60.0,
                 "high": 100.0,
                 "critical": 100.0
             },
