@@ -30,6 +30,12 @@
             "speed": 10000,
             "mtu": 1500
         },
+        "veth68fa6fe": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
         "docker0": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
@@ -68,10 +74,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 133375369972,
-        "bytes_recv": 186490057282,
-        "packets_sent": 94757989,
-        "packets_recv": 168683494,
+        "bytes_sent": 133612908919,
+        "bytes_recv": 186816293745,
+        "packets_sent": 94855047,
+        "packets_recv": 168958146,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
