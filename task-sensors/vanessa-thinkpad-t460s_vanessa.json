@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 46.0,
+                "current": 44.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 62.0,
+                "current": 59.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 62.0,
+                "current": 59.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 59.0,
+                "current": 57.0,
                 "high": 100.0,
                 "critical": 100.0
             }
