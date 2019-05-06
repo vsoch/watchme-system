@@ -542,7 +542,7 @@
     ],
     "version": "3.6.4 |Anaconda custom (64-bit)| (default, Jan 16 2018, 18:10:19) \n[GCC 7.2.0]",
     "path": [
-        "/home/vanessa/anaconda3/lib/python3.6/site-packages/watchme-0.0.15-py3.6.egg",
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/watchme-0.0.16-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/requests-2.21.0-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/urllib3-1.21.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/chardet-3.0.4-py3.6.egg",
