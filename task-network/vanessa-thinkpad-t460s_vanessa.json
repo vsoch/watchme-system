@@ -12,12 +12,6 @@
             "speed": 65535,
             "mtu": 1500
         },
-        "br-e84892821a5e": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
-            "speed": 0,
-            "mtu": 1500
-        },
         "docker0": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
@@ -44,10 +38,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 134677543754,
-        "bytes_recv": 190249200069,
-        "packets_sent": 97429881,
-        "packets_recv": 173103499,
+        "bytes_sent": 134517153182,
+        "bytes_recv": 190378809002,
+        "packets_sent": 97468681,
+        "packets_recv": 173226704,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
