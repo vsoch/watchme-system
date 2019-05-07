@@ -1,0 +1,11 @@
+{
+    "users": [
+        {
+            "name": "vanessa",
+            "terminal": "tty7",
+            "host": "localhost",
+            "started": 1551634432.0,
+            "pid": 1391
+        }
+    ]
+}
