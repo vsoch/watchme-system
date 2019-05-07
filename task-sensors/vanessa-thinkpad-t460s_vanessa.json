@@ -27,19 +27,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 60.0,
+                "current": 62.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 59.0,
+                "current": 62.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 59.0,
+                "current": 57.0,
                 "high": 100.0,
                 "critical": 100.0
             }
@@ -49,7 +49,7 @@
         "thinkpad": [
             {
                 "label": "",
-                "current": 3276
+                "current": 3275
             }
         ]
     },
