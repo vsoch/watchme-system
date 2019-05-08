@@ -15,8 +15,8 @@
     "uname": {
         "sysname": "Linux",
         "nodename": "vanessa-ThinkPad-T460s",
-        "version": "#48~16.04.1-Ubuntu SMP Tue Jan 29 18:03:48 UTC 2019",
-        "release": "4.15.0-45-generic",
+        "version": "#51~16.04.1-Ubuntu SMP Fri Apr 5 12:01:12 UTC 2019",
+        "release": "4.15.0-48-generic",
         "machine": "x86_64"
     }
 }
