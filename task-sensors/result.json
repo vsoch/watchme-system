@@ -3,7 +3,7 @@
         "acpitz": [
             {
                 "label": "",
-                "current": 38.0,
+                "current": 41.0,
                 "high": 128.0,
                 "critical": 128.0
             }
@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 36.0,
+                "current": 38.5,
                 "high": null,
                 "critical": null
             }
@@ -25,7 +25,7 @@
             },
             {
                 "label": "Core 0",
-                "current": 52.0,
+                "current": 53.0,
                 "high": 100.0,
                 "critical": 100.0
             },
@@ -39,7 +39,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 28.0,
+                "current": 36.0,
                 "high": null,
                 "critical": null
             }
