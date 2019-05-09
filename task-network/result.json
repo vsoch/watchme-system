@@ -12,6 +12,12 @@
             "speed": 0,
             "mtu": 1500
         },
+        "vethd0ae1d4": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
         "lo": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
@@ -26,10 +32,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 1451172999,
-        "bytes_recv": 7016433337,
-        "packets_sent": 1351490,
-        "packets_recv": 5370398,
+        "bytes_sent": 1523744410,
+        "bytes_recv": 7374714917,
+        "packets_sent": 1425656,
+        "packets_recv": 5652051,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
