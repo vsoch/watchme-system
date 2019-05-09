@@ -11,7 +11,7 @@
         "pch_skylake": [
             {
                 "label": "",
-                "current": 31.0,
+                "current": 30.0,
                 "high": null,
                 "critical": null
             }
@@ -31,7 +31,7 @@
             },
             {
                 "label": "Core 1",
-                "current": 47.0,
+                "current": 45.0,
                 "high": 100.0,
                 "critical": 100.0
             }
