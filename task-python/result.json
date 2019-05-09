@@ -564,7 +564,8 @@
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/divvy-0.3.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/PyYAML-5.1-py3.6-linux-x86_64.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/expfactory-2.5.47-py3.6.egg",
-        "/home/vanessa/anaconda3/lib/python3.6/site-packages/selenium-2.53.6-py3.6.egg"
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/selenium-2.53.6-py3.6.egg",
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/cognitiveatlas-0.1.9-py3.6.egg"
     ],
     "prefix": "/home/vanessa/anaconda3",
     "executable": "/home/vanessa/anaconda3/bin/python",
