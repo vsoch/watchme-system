@@ -524,7 +524,6 @@
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/flask_blueprint-1.2.2-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/Flask_RESTful-0.3.6-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/aniso8601-3.0.2-py3.6.egg",
-        "/home/vanessa/anaconda3/lib/python3.6/site-packages/expfactory-3.13-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/jupyter_repo2docker-0.5+234.g5c263a9.dirty-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/escapism-1.0.0-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/python_json_logger-0.1.9-py3.6.egg",
@@ -544,7 +543,6 @@
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/oauth2-1.9.0.post1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/Flask_OAuthlib-0.9.5-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/mantrabio-0.0.1-py3.6.egg",
-        "/home/vanessa/anaconda3/lib/python3.6/site-packages/matplotlib-2.1.2-py3.6-linux-x86_64.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/penrose-0.0.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/pydicom-1.2.1-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/deid-0.1.32-py3.6.egg",
@@ -564,7 +562,9 @@
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/peppy-0.20-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/logmuse-0.0.2-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/divvy-0.3.1-py3.6.egg",
-        "/home/vanessa/anaconda3/lib/python3.6/site-packages/PyYAML-5.1-py3.6-linux-x86_64.egg"
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/PyYAML-5.1-py3.6-linux-x86_64.egg",
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/expfactory-2.5.47-py3.6.egg",
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/selenium-2.53.6-py3.6.egg"
     ],
     "prefix": "/home/vanessa/anaconda3",
     "executable": "/home/vanessa/anaconda3/bin/python",
