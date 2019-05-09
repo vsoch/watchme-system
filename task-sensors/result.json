@@ -19,19 +19,19 @@
         "coretemp": [
             {
                 "label": "Package id 0",
-                "current": 50.0,
+                "current": 46.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 0",
-                "current": 50.0,
+                "current": 46.0,
                 "high": 100.0,
                 "critical": 100.0
             },
             {
                 "label": "Core 1",
-                "current": 46.0,
+                "current": 45.0,
                 "high": 100.0,
                 "critical": 100.0
             }
