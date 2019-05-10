@@ -1,18 +1,18 @@
 {
     "net_if_stats": {
+        "vethdbffd86": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
+            "mtu": 1500
+        },
         "wlp4s0": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
             "speed": 0,
             "mtu": 1500
         },
-        "veth34644ea": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
-        "veth8989f3b": {
+        "veth3f93f81": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
             "speed": 10000,
@@ -22,6 +22,12 @@
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_UNKNOWN",
             "speed": 0,
+            "mtu": 1500
+        },
+        "veth156de94": {
+            "isup": true,
+            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
+            "speed": 10000,
             "mtu": 1500
         },
         "lo": {
@@ -36,19 +42,13 @@
             "speed": 65535,
             "mtu": 1500
         },
-        "vetha521150": {
+        "vethc17d8ff": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
             "speed": 10000,
             "mtu": 1500
         },
-        "vethec0ac9e": {
-            "isup": true,
-            "duplex": "NicDuplex.NIC_DUPLEX_FULL",
-            "speed": 10000,
-            "mtu": 1500
-        },
-        "veth5b79e66": {
+        "veth19f9794": {
             "isup": true,
             "duplex": "NicDuplex.NIC_DUPLEX_FULL",
             "speed": 10000,
@@ -56,10 +56,10 @@
         }
     },
     "net_io_counters": {
-        "bytes_sent": 5783421127,
-        "bytes_recv": 17478023593,
-        "packets_sent": 2980582,
-        "packets_recv": 13249086,
+        "bytes_sent": 6279933549,
+        "bytes_recv": 18495907802,
+        "packets_sent": 3208206,
+        "packets_recv": 13949283,
         "errin": 0,
         "errout": 0,
         "dropin": 0,
