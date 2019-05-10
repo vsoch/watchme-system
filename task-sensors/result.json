@@ -31,7 +31,7 @@
             },
             {
                 "label": "Core 1",
-                "current": 48.0,
+                "current": 49.0,
                 "high": 100.0,
                 "critical": 100.0
             }
@@ -39,7 +39,7 @@
         "iwlwifi": [
             {
                 "label": "",
-                "current": 37.0,
+                "current": 38.0,
                 "high": null,
                 "critical": null
             }
