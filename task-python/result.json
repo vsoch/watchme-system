@@ -314,7 +314,7 @@
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/selenium-2.53.6-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/cognitiveatlas-0.1.9-py3.6.egg",
         "/home/vanessa/anaconda3/lib/python3.6/site-packages/sregistry-0.1.41-py3.6.egg",
-        "/home/vanessa/anaconda3/lib/python3.6/site-packages/watchme-0.0.18-py3.6.egg"
+        "/home/vanessa/anaconda3/lib/python3.6/site-packages/watchme-0.0.19-py3.6.egg"
     ],
     "prefix": "/home/vanessa/anaconda3",
     "executable": "/home/vanessa/anaconda3/bin/python",
