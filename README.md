@@ -44,7 +44,7 @@ $ watchme get https://www.github.com/vsoch/watchme-system system
 Added watcher watchme-system
 ```
 
-Conflrm that it was added:
+Confirm that it was added:
 
 ```bash
 $ watchme list
